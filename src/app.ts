@@ -14,6 +14,9 @@ dotenv.config({ path: ".env" });
 // Create Express server
 const app = express();
 
+// Set url to heroku hosted database.
+// This line is only really necessary for running the code locally.
+// The url is liable to change at any time.
 process.env.DATABASE_URL = "postgres://uosravdwjqlluy:4d67ade321f32a918e8e6592d54c4a4ac77f9a59a6599295fb43c5478ef1d7f0@ec2-50-16-197-244.compute-1.amazonaws.com:5432/dcegjflicjbf34";
 
 // Express configuration
