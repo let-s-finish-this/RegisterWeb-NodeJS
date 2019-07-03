@@ -3,13 +3,15 @@ export enum ParameterLookup {
 }
 
 export enum ViewNameLookup {
+	LandingPage = "landingPage",
 	ProductDetail = "productDetail",
 	ProductListing = "productListing"
 }
 
 export enum RouteLookup {
 	// Page routing
-	ProductListing = "/",
+	LandingPage = "/",
+	ProductListing = "/productListing",
 	ProductDetail = "/productDetail",
 
 	// Page routing - parameters
