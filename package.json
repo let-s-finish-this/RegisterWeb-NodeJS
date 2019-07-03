@@ -1,7 +1,7 @@
 {
-  "name": "registerweb",
+  "name": "cashtypebeats",
   "version": "0.0.1",
-  "description": "A web-based retail register",
+  "description": "A web-based beat store",
   "repository": {
     "type": "git",
     "url": "git@192.168.10.105:ModernMobileSuite/ModernMobileSuite.git"
